@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --dark: #001233;
+    --dark2: #001845;
+    --primary: #0466C8;
+    --success: #42E2B8;
+    --danger: #214E34; 
+    --secondary: #FFFAFF;
+    --warning: #EEE0CB;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#nav{
+    transition: all ease 1s;
+}
+
+#nav.pined{
+    opacity: 1;
+    position: fixed;
+    top:0;
+}
+
+footer{
+    background-color: var(--dark);
+}
+
